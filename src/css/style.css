@@ -1,0 +1,81 @@
+header{
+text-align: center;
+}
+main{
+    background-color: aliceblue;
+    width: 100%;
+    /* margin-left: 10%; */
+    /* height: 100%; */
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+
+}
+main section{
+width: 70%;
+ margin-left: 10%;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+#voteSubmit{
+text-align: center;
+margin-top: 5%;
+height: 100px;
+background-color: antiquewhite;
+
+}
+
+
+footer{
+    background-color: #684e7a;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+}
+
+#candidateNameId{
+    width: 50%;
+    height: 40px;
+    vertical-align: 2%;
+}
+#flagId{
+    width: 10%;
+    height:40px;
+    vertical-align: 2%;
+}
+#btn_submitVote{
+    width: 20%;
+    height: 40px;
+    margin-top: 2%;
+    background-color: rgb(176, 245, 176);
+}
+#btn_submitVote:hover{
+    background-color:green;
+    color: #684e7a;
+}
+#flagId  img{
+    height: 40px;
+    width: 50%;
+}
+input[type=text]:focus{
+    outline: 2px solid rgb(11, 63, 233);     /* oranges! yey */
+    background-color: aliceblue;
+  }
+  header button{
+      background-color: rgb(176, 245, 176);
+      height: 50px;
+      width: 40%;
+      border: 5px solid pink;
+      border-radius: 5%;
+  }
+  #btn_goTo_registration:hover{
+      background-color:green;
+      color: #684e7a;
+  }

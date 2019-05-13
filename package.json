@@ -1,0 +1,14 @@
+{
+    "name": "Voting",
+    "description": "Voting App",
+    "authors": "Nasir",
+    "version": "1.0.0",
+    "main": "truffle.js",
+    "dependencies": {
+        "test": "test"
+    },
+    "scripts": {
+        "dev": "lite-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+      }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <title> Voting App</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/registration.css">
+    <!-- <script src="js/app.js"></script> -->
+    
+
+</head>
+<body>
+    <!-- <div id="votingPart"> -->
+<header class="jumbotron">
+<h1> Vote To Right Person</h1> <button id="btn_goTo_voting">Go For Voting</button>
+<marquee> Voting pool Start at 8:30 am to 8:30pm on 25th September 2019</marquee>
+</header>
+<main>
+<section>
+    <h1> Registerd Now </h1>
+    <form  autocomplete="on">
+            <select id="selectCandType"  class="mdb-select  md-form colorful-select dropdown-primary" required>
+                    <option value="" disabled selected>Registered As</option>
+                    <option value="candidate">Candidate </option>
+                    <option value="voter">Voter</option>
+                  </select> <br>
+
+        <input type="text"  placeholder="Name" id="name" required> <br>
+        <input type="text"    data-inputmask="'mask': '99999-9999999-9'"  placeholder="CNIC No"  id="cnic" maxlength="15"><br>
+
+        <select id="selectEdu"  class="mdb-select  md-form colorful-select dropdown-primary" required>
+                <option value="" disabled selected>Education</option>
+                <option value="belowMatric">Less than Matric </option>
+                <option value="matric">Matric</option>
+                <option value="fa">FA / FSc</option>
+                <option value="ba">BA/ BSc</option>
+                <option value="bs">Bacholor / Master</option>
+                <option value="ms">MS / MPhil</option>
+                <option value="phd">Phd</option>
+
+              </select> <br>
+
+         
+        
+        <select id="selectDistrict"  class="mdb-select  md-form colorful-select dropdown-primary">
+                <option value="" disabled selected>Select District</option>
+                <option value="lahore">Lahore </option>
+                <option value="karachi">Karachi</option>
+                <option value="rawalpindi">Rawalpindi</option>
+                <option value="islamabad">Islamabad</option>
+              </select>
+
+         <select id="selectUC"  class="mdb-select  md-form colorful-select dropdown-primary">
+                    <option value="" disabled selected>Select UC</option>
+                    <option value="uc-241">UC-241 </option>
+                    <option value="uc-245">UC-245</option>
+                    <option value="uc-250">UC-250</option>
+                    <option value="uc-251">UC-251</option>
+                  </select>
+                  <br>
+        <input type="date" placeholder="Date of Birth" id='dob'><br>
+        <button type="submit" value="Registered" id="btn_registered">Registered</button><br>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <div id="yourAddress">Address: </div>
+    <p>Copy Right @ 2020</p>
+</footer>
+
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="js/web3.min.js"></script>
+  <script src="js/truffle-contract.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

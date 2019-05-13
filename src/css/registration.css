@@ -1,0 +1,69 @@
+
+header{
+text-align: center;
+
+}
+section{
+width: 70%;
+margin-left: 10%;
+background-color: azure;
+text-align: center;
+border: 5px solid burlywood;
+border-radius: 6%;
+}
+form{
+   
+
+}
+form input{
+    width: 60%;
+    /* margin: 20px; */
+    margin-top: 1%;
+    height: 4rem;
+    margin-left: 0%;
+
+}
+form select{
+    width: 30%;
+    margin-top: 1%;
+    height: 4rem;
+    margin-left: 0%;
+}
+form button{
+    width: 40%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    height: 4rem;
+}
+
+
+footer{
+    background-color: #684e7a;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+}
+
+
+#selectEdu{
+    width: 60%;
+    margin-left: 0px;
+}
+header button{
+    background-color: rgb(176, 245, 176);
+    height: 50px;
+    width: 40%;
+    border: 5px solid pink;
+    border-radius: 5%;
+}
+#btn_goTo_voting:hover{
+    background-color:green;
+    color: #684e7a;
+}
+.error{
+    /* border-color: red; */
+    border: 2px solid red;
+    border-radius: 5%;
+}
